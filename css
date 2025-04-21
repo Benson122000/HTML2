@@ -1,0 +1,27 @@
+/* 固定每個 story item 的寬度 */
+.story-item {
+  width: 80px;
+}
+
+/* 外層 avatar wrapper 加上漸層邊框 */
+.story-avatar-wrapper {
+  width: 64px;
+  height: 64px;
+  padding: 3px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+/* 內層白邊 avatar */
+.story-avatar {
+  border: 2px solid white;
+}
+
+/* （可選）隱藏水平滾動條 */
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+.overflow-x-auto {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
